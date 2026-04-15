@@ -1,13 +1,11 @@
+import Banner from "@/components/homepage/banner/Banner";
 import Image from "next/image";
 
-export default function Home() {
+const Home = () => {
   return (
     <div>
-      <h2>SomeThing is cooking</h2>
-      <h2>SomeThing is cooking</h2>
-      <h2>SomeThing is cooking</h2>
-      <h2>SomeThing is cooking</h2>
-      <h2>SomeThing is cooking</h2>
+      <Banner />
     </div>
   );
-}
+};
+export default Home;
