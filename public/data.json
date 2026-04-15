@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Arif Hasan",
+    "picture": " https://i.ibb.co.com/mVKBwwVc/01.jpg",
+    "email": "arif.hasan@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["university", "close friend"],
+    "bio": "Met during CSE at university. We used to work on programming assignments and hackathons together.",
+    "goal": 14,
+    "next_due_date": "2026-03-28"
+  },
+  {
+    "id": 2,
+    "name": "Rahim Uddin",
+    "picture": "https://i.ibb.co.com/QFP1n0Xy/02.jpg",
+    "email": "rahim.uddin@yahoo.com",
+    "days_since_contact": 10,
+    "status": "almost due",
+    "tags": ["office", "colleague"],
+    "bio": "Worked together on frontend projects. He specializes in UI/UX design and React development.",
+    "goal": 12,
+    "next_due_date": "2026-04-17"
+  },
+  {
+    "id": 3,
+    "name": "Sakib Mahmud",
+    "picture": "https://i.ibb.co.com/rKfMY3PC/03.jpg",
+    "email": "sakib.mahmud@gmail.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["school", "friend"],
+    "bio": "School friend. Still stay connected through football matches and weekend hangouts.",
+    "goal": 10,
+    "next_due_date": "2026-04-25"
+  },
+  {
+    "id": 4,
+    "name": "Tanvir Ahmed",
+    "picture": "https://i.ibb.co.com/PZCggpcy/04.jpg",
+    "email": "tanvir.ahmed@gmail.com",
+    "days_since_contact": 22,
+    "status": "overdue",
+    "tags": ["client", "freelance"],
+    "bio": "Client from a freelance web project. Built an e-commerce website for his business.",
+    "goal": 15,
+    "next_due_date": "2026-03-25"
+  },
+  {
+    "id": 5,
+    "name": "Mehedi Hasan",
+    "picture": "https://i.ibb.co.com/tM5hKRbz/05.jpg",
+    "email": "mehedi.hasan@gmail.com",
+    "days_since_contact": 11,
+    "status": "almost due",
+    "tags": ["gym", "friend"],
+    "bio": "Met at the gym. We motivate each other to stay consistent with workouts and fitness goals.",
+    "goal": 12,
+    "next_due_date": "2026-04-16"
+  },
+  {
+    "id": 6,
+    "name": "Fahim Chowdhury",
+    "picture": "https://i.ibb.co.com/JWr532PB/06.jpg",
+    "email": "fahim.chowdhury@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["developer", "community"],
+    "bio": "Met through a developer community. We often discuss JavaScript and Next.js projects.",
+    "goal": 7,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 7,
+    "name": "Imran Hossain",
+    "picture": "https://i.ibb.co.com/Z1MQ0hfc/07.jpg",
+    "email": "imran.hossain@gmail.com",
+    "days_since_contact": 16,
+    "status": "overdue",
+    "tags": ["neighbor", "friend"],
+    "bio": "Childhood neighbor. Used to play cricket together almost every evening.",
+    "goal": 14,
+    "next_due_date": "2026-03-30"
+  },
+  {
+    "id": 8,
+    "name": "Nayeem Islam",
+    "picture": "https://i.ibb.co.com/mrTTXNFY/08.jpg",
+    "email": "nayeem.islam@gmail.com",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["startup", "co-founder"],
+    "bio": "Worked together on a startup idea focused on building SaaS tools for small businesses.",
+    "goal": 10,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 9,
+    "name": "Rashed Karim",
+    "picture": "https://i.ibb.co.com/KxLrwMpq/09.jpg",
+    "email": "rashed.karim@gmail.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["mentor", "career"],
+    "bio": "Senior developer who guides me in career decisions and best coding practices.",
+    "goal": 7,
+    "next_due_date": "2026-04-20"
+  }
+]
