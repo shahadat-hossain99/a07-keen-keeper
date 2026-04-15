@@ -1,0 +1,56 @@
+import Image from "next/image";
+import Link from "next/link";
+
+const statusStyles = {
+  "almost due": "badge badge-warning text-white",
+  overdue: "badge badge-error text-white",
+  "on-track": "badge badge-success text-white",
+};
+
+const FriendCard = ({ friend }) => {
+  const { name, picture, days_since_contact, status, tags } = friend;
+
+  return (
+    <Link
+      href={`/friend/${friend.id}`}
+      className="card bg-base-100 border border-base-200 shadow-sm transition hover:scale-105 group hover:no-underline focus:no-underline items-center text-center p-6 gap-3"
+    >
+      <div className="avatar">
+        <div className="w-16 rounded-full ring ring-base-200 ring-offset-2">
+          <Image
+            src={picture.trim()}
+            alt={name}
+            width={64}
+            height={64}
+            className="object-cover"
+          />
+        </div>
+      </div>
+
+      <div className="card-body p-0 items-center gap-2">
+        <h3 className="card-title text-base font-semibold text-gray-900 group-hover:underline group-focus:underline">
+          {name}
+        </h3>
+
+        <p className="text-sm text-gray-400">{days_since_contact}d ago</p>
+
+        <div className="flex flex-wrap justify-center gap-1">
+          {tags.map((tag) => (
+            <span
+              key={tag}
+              className="badge badge-soft badge-success text-xs capitalize"
+            >
+              {tag}
+            </span>
+          ))}
+        </div>
+
+        <span className={`${statusStyles[status]} text-xs mt-1 capitalize`}>
+          {status}
+        </span>
+      </div>
+    </Link>
+  );
+};
+
+export default FriendCard;

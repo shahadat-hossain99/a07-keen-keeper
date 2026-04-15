@@ -3,7 +3,7 @@ import React from "react";
 const Banner = () => {
   return (
     <div>
-      <div className="hero min-h-[60vh]">
+      <div className="hero min-h-[40vh]">
         <div className="hero-content text-center">
           <div className="">
             <h1 className="text-2xl md:text-5xl font-bold ">
