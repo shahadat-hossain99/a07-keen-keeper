@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <div>
       <div className="hero min-h-[40vh]">
-        <div className="hero-content text-center">
+        <div className="hero-content max-w-3/4 text-center">
           <div className="">
             <h1 className="text-2xl md:text-5xl font-bold ">
               Friends to keep close in your life

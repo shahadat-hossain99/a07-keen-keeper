@@ -27,7 +27,7 @@ const Friends = async () => {
   ).length;
 
   return (
-    <div className="container mx-auto py-10">
+    <div className="container max-w-3/4  mx-auto py-10">
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 my-10 border-b pb-10 border-gray-200">
         <CountCard number={totalFriends}>Total Friends</CountCard>
         <CountCard number={onTrack}>On Track</CountCard>

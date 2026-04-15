@@ -7,7 +7,7 @@ import X from "../../../assets/twitter.png";
 const Footer = () => {
   return (
     <div className="bg-[#2d5a4e] p-10">
-      <footer className="container mx-auto footer footer-horizontal footer-center  text-primary-content gap-6">
+      <footer className="container max-w-3/4  mx-auto footer footer-horizontal footer-center  text-primary-content gap-6">
         <aside>
           <h2 className="font-bold text-3xl md:text-4xl">
             Keen<span className="font-medium">Keeper</span>
@@ -32,8 +32,8 @@ const Footer = () => {
           </div>
         </nav>
       </footer>
-      <div className="divider container mx-auto text-[#1A8862]] before:bg-[#1A8862]/40 after:bg-[#1A8862]/40"></div>
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between text-white/40 text-sm pb-4">
+      <div className="divider container max-w-3/4  mx-auto text-[#1A8862]] before:bg-[#1A8862]/40 after:bg-[#1A8862]/40"></div>
+      <div className="container max-w-3/4  mx-auto flex flex-col md:flex-row items-center justify-between text-white/40 text-sm pb-4">
         <p className="text-center md:text-start">
           © {new Date().getFullYear()} KeenKeeper - All right reserved
         </p>
