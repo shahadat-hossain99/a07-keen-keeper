@@ -14,7 +14,7 @@ const LogContextProvider = ({ children }) => {
       type,
       date: new Date(),
     };
-    setTimeLine((prev) => [...prev, addLog]);
+    setTimeLine((prev) => [...prev, newLog]);
   };
 
   const data = {
