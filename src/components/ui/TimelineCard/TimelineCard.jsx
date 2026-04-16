@@ -23,7 +23,7 @@ const TimelineCard = ({ item }) => {
 
   return (
     <div
-      className={`flex border border-gray-200 rounded-lg mb-4 items-center gap-4 px-5 py-4 transition-colors hover:bg-base-200`}
+      className={`flex border bg-white border-gray-200 rounded-lg mb-4 items-center gap-4 px-5 py-4 transition-colors hover:bg-base-200`}
     >
       <div className="w-10 h-10 shrink-0">
         <Image

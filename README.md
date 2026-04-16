@@ -1,4 +1,4 @@
-# 🤝 KeenKeeper
+# 🤝 ![KeenKeeper](./screenshots/logo.png)
 
 > **Your personal shelf of meaningful connections.**  
 > Browse, tend, and nurture the relationships that matter most.
@@ -19,6 +19,19 @@ Think of it as your personal CRM, but designed for real human relationships, not
 
 ---
 
+## 💡 Why KeenKeeper?
+
+In today’s fast-paced world, we often get busy and unintentionally lose touch with people who matter the most — friends, family, and meaningful connections.
+
+KeenKeeper is built to solve that.
+
+It’s not just about tracking interactions — it’s about being intentional with relationships.  
+This project helps you stay connected, remind yourself who needs attention, and build stronger, long-lasting human connections.
+
+Because relationships deserve the same care and structure we give to our work.
+
+---
+
 ## ✨ Key Features
 
 ### 👥 Friend Dashboard with Status Tracking
@@ -31,7 +44,7 @@ A summary panel at the top shows your total friends count, how many are on track
 
 ### 🔍 Detailed Friend Profiles via Modal
 
-Click on any friend card to open a full-detail modal with their complete profile — including labels, priority level, assignee info, and important dates — all without leaving the page.
+Click on any friend card to Open a smooth, non-disruptive modal experience that lets you explore detailed profiles without navigating away — ensuring a seamless user flow with their complete profile — including labels, priority level, assignee info, and important dates — all without leaving the page.
 
 ---
 
@@ -45,6 +58,23 @@ Click on any friend card to open a full-detail modal with their complete profile
 | [DaisyUI](https://daisyui.com/)                             | v5      | UI component library      |
 | [React Icons](https://react-icons.github.io/react-icons/)   | v5      | Icon library              |
 | [React Toastify](https://fkhadra.github.io/react-toastify/) | v11     | Toast notifications       |
+| [Recharts](https://recharts.github.io/)                     | v3.8.1  | Toast notifications       |
+
+---
+
+## 🧠 What I Learned
+
+While building **KeenKeeper**, I focused on both technical and product-level thinking:
+
+- ⚛️ Built a modern app using **Next.js** App Router (Server + Client Components)
+- 🔄 Managed global state using React **Context API**
+- 🎯 Designed reusable and scalable UI components
+- ⚡ Implemented loading UI for better user experience
+- 📊 Processed and visualized dynamic data using _Recharts_ (status tracking & interaction metrics)
+- 🎨 Improved UI/UX using Tailwind CSS and DaisyUI
+- 🧩 Learned how to structure a real-world project professionally
+
+This project helped me move beyond just coding — into building meaningful user-focused applications.
 
 ---
 
@@ -91,7 +121,17 @@ a07-keen-keeper/
 
 ## 🌐 Live Demo
 
+🚀 Experience the app in action:
+
 👉 **[a07-keen-keeper-nine.vercel.app](https://a07-keen-keeper-nine.vercel.app)**
+
+💡 Try this:
+
+- Open a friend profile
+- Check status badges (On Track / Overdue)
+- Explore how interaction tracking works
+
+_(GIF demo coming soon for a smoother preview 👇)_
 
 ---
 
@@ -99,15 +139,23 @@ a07-keen-keeper/
 
 ### 🖥️ Home
 
-![HomePage with Navbar](./screenshots/homeWithNav.jpg)
+![HomePage with Navbar](./screenshots/567shots_so.png)
 
 ### 📋 Friend Details
 
-![Mdal](./screenshots/friendDetailsPage.jpg)
+![Details](./screenshots/friendDetailsPage.png)
 
-<!-- ### 📱 Mobile View
+<!-- ### 📋 Timeline Page
 
-![Mobile](./screenshots/mobile.png) -->
+![Timeline](./screenshots/timelinePageWithData.jpg)
+
+### 📋 Footer
+
+![Footer](./screenshots/footer.jpg) -->
+
+### 📱 Mobile View
+
+![Mobile](./screenshots/phone.png)
 
 ---
 
