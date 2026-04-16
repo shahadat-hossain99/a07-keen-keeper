@@ -10,6 +10,9 @@ import {
   LuVideo,
 } from "react-icons/lu";
 import { cache } from "react";
+import TextBtn from "@/components/logButtons/TextBtn";
+import VideoBtn from "@/components/logButtons/VideoBtn";
+import VoiceBtn from "@/components/logButtons/VoiceBtn";
 
 const getFriends = cache(async () => {
   const res = await fetch("https://a07-keen-keeper-nine.vercel.app//data.json");
@@ -138,15 +141,9 @@ const FriendDetailsPage = async ({ params }) => {
                 Quick Check-In
               </h3>
               <div className="grid sm:grid-cols-3 gap-3">
-                <button className="btn h-30 flex flex-col rounded-lg">
-                  <LuPhone size={22} /> Call
-                </button>
-                <button className="btn h-30 flex flex-col rounded-lg">
-                  <LuMessageSquare size={22} /> Text
-                </button>
-                <button className="btn h-30 flex flex-col rounded-lg">
-                  <LuVideo size={22} /> Video
-                </button>
+                <VoiceBtn friend={friend}></VoiceBtn>
+                <TextBtn friend={friend}></TextBtn>
+                <VideoBtn friend={friend}></VideoBtn>
               </div>
             </div>
           </div>
