@@ -53,7 +53,7 @@ const FriendDetailsPage = async ({ params }) => {
 
   return (
     <main className="container max-w-3/4 mx-auto px-4 py-10">
-      <div className="grid grid-cols-1 md:grid-cols-[35%_1fr] gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-[32%_1fr] gap-6">
         {/* ── LEFT SECTION ── */}
         <div className="space-y-3">
           <div className="card-body items-center text-center gap-3 border border-base-300 rounded-lg py-5 shadow">

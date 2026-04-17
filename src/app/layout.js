@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Keen Keeper",
-  description: "Family And Friend Comes First",
+  title: "KeenKeeper",
+  description: "Keep Your Friendships Alive",
 };
 
 export default function RootLayout({ children }) {
