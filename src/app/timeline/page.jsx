@@ -1,5 +1,6 @@
 "use client";
 
+import EmptyTimeline from "@/components/ui/EmptyTimeline/EmptyTimeline";
 import TimelineCard from "@/components/ui/TimelineCard/TimelineCard";
 import { LogContext } from "@/context/log.context";
 import React, { useContext, useEffect, useState } from "react";
@@ -46,7 +47,7 @@ const TimelinePage = () => {
   return (
     <div className="bg-[#F8FAFC] ">
       <div className="container max-w-3/4 mx-auto px-4 py-10">
-        <h1 className="text-3xl font-bold mb-6">Timeline</h1>
+        <h1 className="text-2xl md:text-4xl font-bold mb-6">Timeline</h1>
 
         {/* sorting and filtering */}
         <div className="flex flex-col sm:flex-row gap-3 mb-6">
@@ -139,19 +140,7 @@ const TimelinePage = () => {
         {/* timeline */}
         <div>
           {!filteredData.length ? (
-            <div className="flex flex-col items-center justify-center py-24 text-center gap-3 min-h-[40vh]">
-              <div className="w-14 h-14 rounded-full bg-base-200 flex items-center justify-center">
-                <LuInbox size={24} className="text-gray-400" />
-              </div>
-              <p className="font-semibold text-gray-700">
-                No interactions found
-              </p>
-              <p className="text-sm text-gray-400">
-                {timeLine.length === 0
-                  ? "Start a check-in from a friend's page to see it here."
-                  : "Try adjusting your filters or search term."}
-              </p>
-            </div>
+            <EmptyTimeline />
           ) : (
             <div className="min-h-[35vh]">
               {filteredData.map((item, i) => (
